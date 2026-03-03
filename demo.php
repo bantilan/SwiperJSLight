@@ -18,12 +18,12 @@
   </head>
   <body>
     <h1>Swiper Element Demo</h1>
-
+    <script src="./swiperlight-element-bundle.js?<?php echo rand(10000,99999); ?>"></script>
     <swiper-container navigation="true" pagination="true" slides-per-view="1" loop space-between="20" breakpoints="{
                   &quot;0&quot;: {&quot;slidesPerView&quot;: 3},
                   &quot;550&quot;: {&quot;slidesPerView&quot;: 3},
                   &quot;768&quot;: {&quot;slidesPerView&quot;: 3},
-                  &quot;1250&quot;: {&quot;slidesPerView&quot;: 5}
+                  &quot;1250&quot;: {&quot;slidesPerView&quot;: 1}
                 }" data-autoplay="endless" autoplay autoplay-delay="0" autoplay-disable-on-interaction="false" speed="2000" class="wp-block-gfd-slider-block wp-slider-block slider-logo">
       <swiper-slide>Slide 1</swiper-slide>
       <swiper-slide>Slide 2</swiper-slide>
@@ -36,6 +36,6 @@
       <swiper-slide>Slide 9</swiper-slide>
     </swiper-container>
 
-    <script src="./swiperlight-element-bundle.js"></script>
+    
   </body>
 </html>
