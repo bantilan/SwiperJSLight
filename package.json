@@ -1,0 +1,15 @@
+{
+  "name": "swiperjslight",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Test scaffold for Swiper Element MIT-licensed bundle",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "vitest": "^3.2.4"
+  }
+}
